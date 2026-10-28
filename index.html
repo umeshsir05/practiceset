@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CG Teacher Recruitment - Practice Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="navbar">
+    <div class="nav-left">
+      <button class="menu-btn" id="menuToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <h1 class="logo-text">Practice Exam Portal</h1>
+    </div>
+    
+    <div class="nav-right">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle Theme">🌙</button>
+    </div>
+  </header>
+
+  <!-- Sidebar Drawer Menu -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2>Subjects</h2>
+      <button class="close-btn" id="closeSidebar">&times;</button>
+    </div>
+    <ul class="nav-links">
+      <li><button class="nav-item active" data-subject="cdp">बाल विकास (CDP)</button></li>
+      <li><button class="nav-item" data-subject="hindi">सामान्य हिन्दी</button></li>
+      <li><button class="nav-item" data-subject="english">General English</button></li>
+      <li><button class="nav-item" data-subject="evs">पर्यावरण अध्ययन (EVS)</button></li>
+      <li><button class="nav-item" data-subject="gk">सामान्य ज्ञान (GK)</button></li>
+    </ul>
+
+    <hr class="divider">
+
+    <!-- Scroll Quick Navigation in Sidebar -->
+    <div class="nav-scroll-controls">
+      <h3>Quick Scroll</h3>
+      <button class="scroll-btn" id="scrollTopBtn">⬆ Page Top Par Jayein</button>
+      <button class="scroll-btn" id="scrollBottomBtn">⬇ Page Niche Par Jayein</button>
+    </div>
+  </aside>
+
+  <!-- Overlay for Mobile Menu -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+    
+    <!-- Controls Toolbar -->
+    <section class="toolbar">
+      <h2 id="currentSubjectTitle">बाल विकास एवं शिक्षाशास्त्र (CDP)</h2>
+      
+      <div class="jump-box">
+        <label for="jumpInput">Jump to Q.:</label>
+        <input type="number" id="jumpInput" placeholder="Q. No." min="1">
+        <button id="jumpBtn">Go</button>
+      </div>
+    </section>
+
+    <!-- Questions Feed Area -->
+    <div id="questionsContainer" class="questions-list">
+      <!-- Questions JavaScript ke dwara render honge -->
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
