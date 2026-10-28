@@ -1056,8 +1056,8 @@ const subjectsData = {
     ],
     answer: "(ग) अंबिकापुर",
     explanation: ""
-  }
-    }
+  }, 
+    
   ]
 };
 
