@@ -157,3 +157,8 @@ jumpInput.addEventListener("keypress", (e) => {
 
 // Initial View Load
 renderQuestions("cdp");
+// Pehle se likhe initial render ko is tarah safe banayein:
+window.addEventListener("DOMContentLoaded", () => {
+  renderQuestions("cdp");
+});
+
