@@ -9,7 +9,6 @@
   --sidebar-width: 280px;
   --header-height: 60px;
 }
-
 [data-theme="dark"] {
   --bg-primary: #0f172a;
   --bg-secondary: #1e293b;
