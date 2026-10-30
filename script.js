@@ -1,4 +1,5 @@
-// Database object me sabhi subjects ka alag-alag section hai
+
+    // *******************CDP PEDOLOGY MCQS GIVEN HERE**********************
 const subjectsData = {
   cdp: [
     {
@@ -550,6 +551,8 @@ window.subjectsData.english = [
       explanation: "प्रत्येक बालक अद्वितीय होता है और उनकी सीखने की गति व शैली भिन्न होती है।"
     }
   ],
+
+  // HINDI PEDOLOGY MCQS GIVEN HERE 
   hindi: [
     {
       id: 1,
@@ -788,19 +791,12 @@ window.subjectsData.hindi = [
   }
 
   ],
+    // *******************ENGLISH PEDOLOGY MCQS GIVEN HERE**********************
   english: [
-    {
-      id: 1,
-      title: "Question 1. (Parts of Speech)",
-      text: "Identify the part of speech of the highlighted word:\nShe sings 'beautifully'.",
-      options: ["(A) Adjective", "(B) Adverb", "(C) Verb", "(D) Noun"],
-      answer: "(B) Adverb",
-      explanation: "'Beautifully' modifies the verb 'sings', so it is an adverb of manner."
-    }, 
-window.subjectsData = window.subjectsData || {};
-
-window.subjectsData.english = [
   {
+    window.subjectsData = window.subjectsData || {};
+
+window.subjectsData.evs = [
     id: 1,
     title: "Question 1. (Parts of Speech)",
     text: "Identify the part of speech of the highlighted word:\nShe sings 'beautifully'.",
@@ -950,6 +946,8 @@ window.subjectsData.english = [
   }
 
   ],
+
+  // *******************EVS PEDOLOGY MCQS GIVEN HERE**********************
   evs: [
     {
       id: 1,
@@ -1124,6 +1122,9 @@ window.subjectsData.evs = [
 
 
   ],
+
+  
+    // *******************GENERAL KNOWLEDGE PEDOLOGY MCQS GIVEN HERE**********************
   gk: [
     {
       id: 1,
